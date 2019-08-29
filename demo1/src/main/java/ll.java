@@ -10,8 +10,13 @@ public class ll extends HttpServlet {
 
     public  String  PP(HttpServletRequest request, HttpServletResponse response,HttpSession session){
 
+
+
+        String ch2 =  request.getParameter("ll");
         String ch =  request.getParameter("ll");
+        System.out.println(ch2);
         System.out.println(ch);
         return null;
+
     }
     }
